@@ -15,7 +15,7 @@ function handleLogin(){
 	const password = $("input[name=password]").val();
 
 	$.ajax({
-		url: '/login',
+		url: 'api/login.php',
 		method: 'post',
 		dataType: 'json',
 		data: {
